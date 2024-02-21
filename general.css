@@ -1,0 +1,164 @@
+body{
+    height: 150%;
+}
+
+/**first task**/
+.body {
+    display: flex;  
+    justify-content:space-between;
+    font-size: 30px;
+    margin: 50px;
+    border-style: solid;
+    padding: 15px;
+    border-color: lightgray;
+    border-width: 2px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.figures{
+    font-size: 25px;
+    color: white;
+    background-color: #4d6bee;
+    border-style: none;
+    border-radius: 20px;
+    width: 50px;
+}
+
+
+/** Second Task**/
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.zoo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.animals {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cat-family {
+    font-size: 25px;
+    color: gray;
+}
+
+.oliver {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: black;
+    font-weight:bolder;
+}
+
+.the-cat {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.popular {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.follow {
+    font-size: 25px;
+    color: white;
+    background-color: #4d6bee;
+    border-style: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 50px;
+}
+
+/** Third task**/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+    margin:15px;
+    height: 50px;
+    font-size: 25px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.home-link{
+    color: white;
+    font-weight: bold;
+}
+
+
+.text-box {
+    width: 500px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+
+
+button {
+    border-style: solid;
+    border-radius: 2px;
+    background-color: blueviolet;
+    color: white;
+    border-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/** first task: alternative code**/
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    width: 300px;
+    border-radius: 6px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.notifications {
+    background-color: rgb(49,109,245);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
